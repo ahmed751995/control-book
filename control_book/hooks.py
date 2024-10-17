@@ -121,7 +121,11 @@ app_license = "mit"
 # Document Events
 # ---------------
 # Hook on document methods and events
-
+doc_events = {
+    "Lead": {
+        "before_save": "control_book.doc_events.lead.before_save"
+    }
+}
 # doc_events = {
 # 	"*": {
 # 		"on_update": "method",
