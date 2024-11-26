@@ -124,6 +124,9 @@ app_license = "mit"
 doc_events = {
     "Lead": {
         "before_save": "control_book.doc_events.lead.before_save"
+    },
+    "ID Project": {
+        "before_save": "control_book.doc_events.id_project.before_save"
     }
 }
 # doc_events = {
