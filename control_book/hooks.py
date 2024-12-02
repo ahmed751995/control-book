@@ -127,6 +127,15 @@ doc_events = {
     },
     "ID Project": {
         "before_save": "control_book.doc_events.id_project.before_save"
+    },
+    "Material Request": {
+        "before_save": "control_book.doc_events.material_request.before_save"
+    },
+    "Request for Quotation": {
+        "before_save": "control_book.doc_events.request_for_quotation.before_save"
+    },
+    "Supplier Quotation": {
+        "before_save": "control_book.doc_events.supplier_quotation.before_save"
     }
 }
 # doc_events = {
