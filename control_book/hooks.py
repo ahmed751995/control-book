@@ -129,13 +129,34 @@ doc_events = {
         "before_save": "control_book.doc_events.id_project.before_save"
     },
     "Material Request": {
-        "before_save": "control_book.doc_events.material_request.before_save"
+        "before_save": "control_book.doc_events.add_image_preview.before_save"
     },
     "Request for Quotation": {
-        "before_save": "control_book.doc_events.request_for_quotation.before_save"
+        "before_save": "control_book.doc_events.add_image_preview.before_save"
     },
     "Supplier Quotation": {
-        "before_save": "control_book.doc_events.supplier_quotation.before_save"
+        "before_save": "control_book.doc_events.add_image_preview.before_save"
+    },
+    "Purchase Order": {
+        "before_save": "control_book.doc_events.add_image_preview.before_save"
+    },
+    "Purchase Invoice": {
+        "before_save": "control_book.doc_events.add_image_preview.before_save"
+    },
+    "Quotation": {
+        "before_save": "control_book.doc_events.add_image_preview.before_save"
+    },
+    "Sales Order": {
+        "before_save": "control_book.doc_events.add_image_preview.before_save"
+    },
+    "Sales Invoice": {
+        "before_save": "control_book.doc_events.add_image_preview.before_save"
+    },
+    "Purchase Receipt": {
+        "before_save": "control_book.doc_events.add_image_preview.before_save"
+    },
+    "Delivery Note": {
+        "before_save": "control_book.doc_events.add_image_preview.before_save"
     }
 }
 # doc_events = {
